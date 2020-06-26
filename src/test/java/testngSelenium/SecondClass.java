@@ -19,6 +19,7 @@ public class SecondClass {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
+        driver.manage().window().maximize();
         driver.findElement(By.xpath("//form[1]/table[1]/tbody[1]//input[1]")).sendKeys("daskdj@gmail.com");
         driver.findElement(By.cssSelector("#pass")).sendKeys("weqewq");
         Thread.sleep(2000);
@@ -37,7 +38,7 @@ public class SecondClass {
         Assert.assertEquals(actualErrorMsg,expectedErrorMsg2);
 
 
-        driver.quit();
+//        driver.quit();
     }
 
 
