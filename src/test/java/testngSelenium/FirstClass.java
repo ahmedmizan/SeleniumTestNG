@@ -14,10 +14,10 @@ public class FirstClass {
 
     @Test
     public void invalidLogin() throws InterruptedException {
-
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.facebook.com/");
+//
+//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
+//        driver.get("https://www.facebook.com/");
 //        driver.navigate().to("http://leaftaps.com/opentaps"); // we also can use navigate().to() instead of .get()
 //        driver.get("http://leaftaps.com/opentaps");
 //        driver.navigate().refresh();
@@ -35,13 +35,44 @@ public class FirstClass {
 //        String expectedErrorMsg = "Sign up for an account.";
 //        Assert.assertEquals(errorMsg,expectedErrorMsg);
 
-        driver.findElement(By.name("firstname")).sendKeys("Manha");
-        driver.findElement(By.name("lastname")).sendKeys("Ahmed");
-        driver.findElement(By.name("reg_email__")).sendKeys("91758221482");
-        driver.findElement(By.name("websubmit")).click();
+//        driver.findElement(By.name("firstname")).sendKeys("Manha");
+//        driver.findElement(By.name("lastname")).sendKeys("Ahmed");
+//        driver.findElement(By.name("reg_email__")).sendKeys("91758221482");
+//        driver.findElement(By.name("websubmit")).click();
 //        driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Manha");
 //        Thread.sleep(2000);
 //        driver.quit();
+    }
+
+@Test
+    public void signUpAccount() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.facebook.com/");
+        driver.manage().window().maximize();
+
+        driver.findElement(By.name("firstname")).sendKeys("Mizan");
+        driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Ahmed");
+        driver.findElement(By.id("u_0_r")).sendKeys("91758225");
+        driver.findElement(By.id("password_step_input")).sendKeys("0123456");
+        driver.findElement(By.name("websubmit")).click();
+      String errorMsg =driver.findElement(By.xpath("//div[text()='Please choose a gender. You can change who can see this later.']")).getText();
+      String expecteErrorMsg ="Please choose a gender. You can change who can see this later.";
+      Assert.assertEquals(errorMsg,expecteErrorMsg);
+      Thread.sleep(3000);
+      driver.quit();
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
