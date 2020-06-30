@@ -11,17 +11,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DropDownLesson {
+//    https://www.guru99.com/xpath-selenium.html#11
 
     @Test
     public void selectFromDropdown(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed\\workspace\\SeleniumProject\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
         By monthDropDown = By.name("birthday_month");
         By dayDropDown = By.name("birthday_day");
         By yearDropDown = By.xpath("//select[@id='year']");
-
 
         WebElement element = driver.findElement(monthDropDown);
         Select select = new Select(element);
