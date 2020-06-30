@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112fc139-4226-4a74-b34a-43fe2c9bd1f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngSelenium/DropDownLesson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngSelenium/SecondClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngSelenium/SecondClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testngSelenium/SecondClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testngSelenium/SecondClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,42 @@
       <recent name="C:\Users\ahmed\workspace\SeleniumProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SecondClass.xpathLesson">
+  <component name="RunManager" selected="TestNG.DropDownLesson.selectFromDropdown">
+    <configuration name="DropDownLesson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngSelenium" />
+      <option name="MAIN_CLASS_NAME" value="testngSelenium.DropDownLesson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownLesson.selectFromDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngSelenium" />
+      <option name="MAIN_CLASS_NAME" value="testngSelenium.DropDownLesson" />
+      <option name="METHOD_NAME" value="selectFromDropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstClass.invalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
@@ -92,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropDownLesson.selectFromDropdown" />
+        <item itemvalue="TestNG.DropDownLesson" />
         <item itemvalue="TestNG.SecondClass.xpathLesson" />
         <item itemvalue="TestNG.FirstClass.invalidLogin" />
       </list>
@@ -115,30 +150,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592871312021" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1593213784922">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1593544940018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593213784922" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1593213784922">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593544940018" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1593544940017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593213784922" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1593213784922">
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593544940017" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1593544940017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593213784922" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1593213784922">
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593544940017" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1593544940017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593213784922" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593544940017" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1592871452037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592871452037" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593115988697">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593544325615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593115988697" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593544325615" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumProject$FirstClass_firstTest.ic" NAME="FirstClass.firstTest Coverage Results" MODIFIED="1593038665218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
