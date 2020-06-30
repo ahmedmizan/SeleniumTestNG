@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="SeleniumProject" />
   </component>
@@ -53,7 +56,7 @@
       <recent name="C:\Users\ahmed\workspace\SeleniumProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstClass.signUpAccount">
+  <component name="RunManager" selected="TestNG.SecondClass.xpathLesson">
     <configuration name="FirstClass (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
@@ -143,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstClass.signUpAccount" />
         <item itemvalue="TestNG.SecondClass.xpathLesson" />
+        <item itemvalue="TestNG.FirstClass.signUpAccount" />
         <item itemvalue="TestNG.FirstClass (2)" />
         <item itemvalue="TestNG.FirstClass (1)" />
         <item itemvalue="TestNG.FirstClass" />
@@ -169,22 +172,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592871312021" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1593289292869">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1593475874262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593289292869" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1593289292869">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593475874262" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1593475874262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593289292869" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1593289292869">
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593475874262" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1593475874262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593289292869" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1593289292869">
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593475874262" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1593475874262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593289292869" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593475874262" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1592871452037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -195,7 +198,7 @@
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593115988697" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SeleniumProject$FirstClass_signUpAccount.ic" NAME="FirstClass.signUpAccount Coverage Results" MODIFIED="1593289292811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SeleniumProject$FirstClass_signUpAccount.ic" NAME="FirstClass.signUpAccount Coverage Results" MODIFIED="1593470211795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testngSelenium.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SeleniumProject$FirstClass_firstTest.ic" NAME="FirstClass.firstTest Coverage Results" MODIFIED="1593038665218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
