@@ -50,26 +50,27 @@ public class FirstClass {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
+        By firstNameField = By.name("firstname");
+        By lastNameField = By.xpath("//input[@name='lastname']");
+        By phoneNumField = By.id("u_0_r");
+        By passwordField = By.id("password_step_input");
+        By signUpButton = By.name("websubmit");
+        By errorMsgElement = By.xpath("//div[text()='Please choose a gender. You can change who can see this later.']");
 
-        driver.findElement(By.name("firstname")).sendKeys("Mizan");
-        driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Ahmed");
-        driver.findElement(By.id("u_0_r")).sendKeys("91758225");
-        driver.findElement(By.id("password_step_input")).sendKeys("0123456");
-        driver.findElement(By.name("websubmit")).click();
-      String errorMsg =driver.findElement(By.xpath("//div[text()='Please choose a gender. You can change who can see this later.']")).getText();
-      String expecteErrorMsg ="Please choose a gender. You can change who can see this later.";
-      Assert.assertEquals(errorMsg,expecteErrorMsg);
-      Thread.sleep(3000);
+
+
+        driver.findElement(firstNameField).sendKeys("Mizan");
+        driver.findElement(lastNameField).sendKeys("Ahmed");
+        driver.findElement(phoneNumField).sendKeys("91758225");
+        driver.findElement(passwordField).sendKeys("0123456");
+        driver.findElement(signUpButton).click();
+        Thread.sleep(3000);
+
+      String errorMsg =driver.findElement(errorMsgElement).getText();
+      String expectedErrorMsg ="Please choose a gender. You can change who can see this later.";
+      Assert.assertEquals(errorMsg,expectedErrorMsg);
+
       driver.quit();
-
-
-
-
-
-
-
-
-
 
 
 
